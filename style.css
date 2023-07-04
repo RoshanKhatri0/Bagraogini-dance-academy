@@ -581,3 +581,25 @@ footer p{
         font-size: 1em;
     }
 }
+/* about-us-page */
+.image-aboutus-banner {
+    background: url(images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 140px;
+    padding-bottom:110px;
+ }
+ .aboutus-who{
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .team img{
+    vertical-align: middle;
+    border-style: none;
+ }
+ .profile{
+    margin-bottom: 1.5rem;
+    text-align: center;
+ }
