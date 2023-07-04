@@ -28,7 +28,7 @@ h3.heading{
 }
 /* Navigation Bar */
 header{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 .navbar {
     background-color: var(--maincolor);
@@ -42,6 +42,10 @@ header{
 .navbar a:hover {
     color: #ffffff;
   }
+nav img{
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgb(7 0 0 / 100%);
+}
 
 /* Main Section */
 .main{
@@ -553,4 +557,27 @@ footer p{
 .social-icons a.tiktok:hover
 {
   background-color:#201f1f
+}
+/* Courses-page */
+.h-container .heading{
+    display: flex;
+    justify-content: center;
+}
+.h-container .heading h3{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+}
+.h-container .heading h3 span{
+    font-weight: 100;
+}
+@media only screen and (max-width:642px){
+    .h-container .heading{
+        width: 100%;
+    }
+    .h-container .heading h3{
+        font-size: 1em;
+    }
 }
