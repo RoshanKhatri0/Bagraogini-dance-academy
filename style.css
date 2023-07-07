@@ -263,7 +263,7 @@ nav img{
     background: url(images/subscribe.png) var(--maincolor);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 4rem 7%;
+    padding: 2rem 7%;
 }
 .main-teacher-container h1{
     color: white;
