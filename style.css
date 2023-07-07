@@ -559,6 +559,12 @@ footer p{
   background-color:#201f1f
 }
 /* Courses-page */
+#dance-course  img{
+    height: 400px;
+}
+#music-course  img{
+    height: 400px;
+}
 .h-container .heading{
     display: flex;
     justify-content: center;
@@ -603,3 +609,35 @@ footer p{
     margin-bottom: 1.5rem;
     text-align: center;
  }
+ hr{
+    border: 0;
+    border-top: 6px solid rgb(0, 0, 0);
+    margin: 3rem 0;
+ }
+ .coreteam{
+    background-color: #fce2a5;
+ }
+ .coreteam col{
+    align-items: center;
+ }
+ .coreteam img{
+    height: 500px;
+    width: 500px;
+ }
+ .core-heading{
+    line-height: 1.5;
+    letter-spacing: -.05rem;
+ }
+ .core-des{
+    font-size: 1.25rem;
+ }
+ @media (min-width: 62em){
+    .core-heading {
+        margin-top: 1rem;
+    }
+}
+@media (min-width: 40em){
+    .core-heading {
+        font-size: 50px;
+    }
+}
